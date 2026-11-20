@@ -1,22 +1,24 @@
 {
-  "name": "qwrudiscordbot",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "start": "wrangler dev",
-    "test": "vitest",
-    "cf-typegen": "wrangler types"
-  },
-  "devDependencies": {
-    "@cloudflare/vitest-plugin": "^1.4.3",
-    "@types/node": "^26.6.6",
-    "typescript": "^5.5.2",
-    "vitest": "~5.0.3",
-    "wrangler": "^4.162.0"
-  },
-  "dependencies": {
-    "discord-interactions": "^4.4.0"
-  }
+	"name": "qwrudiscordbot",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "vitest",
+		"cf-typegen": "wrangler types"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-plugin": "^1.4.3",
+		"@types/node": "^26.6.6",
+		"typescript": "^5.5.2",
+		"vitest": "~5.0.3",
+		"wrangler": "^4.162.0"
+	},
+	"dependencies": {
+		"@qwru/db": "^0.1.4",
+		"@qwru/types": "^0.1.1",
+		"discord-interactions": "^4.4.0"
+	}
 }
